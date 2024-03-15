@@ -1,0 +1,43 @@
+div{
+    background-color: black;
+    height: 100px;
+}
+/* 900 - 1000 */
+@media screen and (max-width:1000px){
+    div{
+        background-color: yellow;
+    }
+}
+/* 600 - 900 */
+@media screen and (max-width:900px) {
+    div{
+        background-color: rgb(53, 53, 142);
+    }
+}
+/* 0 - 600 */
+@media screen and (max-width:600px) {
+    div{
+        background-color: red;
+    }
+}
+
+.one{
+    background-color: black;
+    height: 100px;
+}
+/* 600 - 600 above */
+@media screen and (min-width:600px){
+    .one{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:900px){
+    .one{
+        background-color: rgb(53, 53, 142);
+    }
+}
+@media screen and (min-width:1000px){
+    .one{
+        background-color: red;
+    }
+}

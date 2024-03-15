@@ -1,0 +1,251 @@
+/* univeral selector */
+*{
+    color: rebeccapurple;
+}
+/* type selector */
+h1,h4{
+    color: crimson !important;
+}
+h4{
+    color: blue;
+}
+/* id selector
+- are the unique name 
+referenced with # */
+#caption{
+    color: hotpink;
+}
+/* class selector */
+.heading{
+    color:lightseagreen;
+    background-image: url(images/wallpaper.jpg);
+}
+.bg{
+    background-color: rgb(229, 226, 200);
+    width: 300px;
+    border: 15px solid green;
+    margin: 20px;
+    padding:  50px;
+}
+/* child selector */
+/* parent > child */
+div > h2{
+    color:darkblue;
+}
+/* descendant selector */
+div p{
+    color: darkslategrey;
+}
+/* The childrens under the single parent */
+/* siblings selectors */
+h1~h3{
+    color: blueviolet;
+}
+/* adjacent sibiling selector */
+h1+h2{
+    color: rgb(99, 196, 196);
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------------------------------------
+Advanced selectors */
+
+/* attribute elements */
+/* p tag which has class attribute */
+p[id]{
+    color: darkslateblue;
+}
+/* p tag which has id attribute */
+p[id]{
+    color: darkslategrey;
+}
+p[id="para1"]{
+    color: darkorchid;
+}
+/* which contains atleast one word in that class name */
+p[class~="class"]{
+    color: tomato;
+}
+/* id name starting letter */
+/* prefix selecting */
+p[id^="p"]{
+    color: darkorange;
+}
+/* id name ends with letter */
+/* suffix selecting */
+p[id$="1"]{
+    color: aqua;
+}
+/* subString in the class or id name */
+p[id*="ar"]{
+    color: salmon;
+}
+
+#para1:first-letter{
+    text-transform: uppercase;
+}
+#para2:first-line{
+    text-transform: uppercase;
+}
+
+.anchor:link{
+    color: hotpink;
+}
+.anchor:visited{
+    color: olive;
+}
+.anchor:active{
+    color: paleturquoise;
+}
+.anchor:focus{
+    color: antiquewhite;
+}
+.anchor:hover{
+    color: mediumblue;
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------
+/* --------------------------------------------------------------
+/* --------------------------------------------------------------
+/* --------------------------------------------------------------
+/* --------------------------------------------------------------
+/* --------------------------------------------------------------
+*/
+
+pre{
+    color: orchid;
+    background-image: url(images/gradient\ BG.jpg);
+    background-repeat: repeat-x;
+}
+.shadow{
+    text-shadow: 2px 2px 2px rgb(157, 188, 157);
+    text-align: center;
+}
+div h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+/* border styling */
+.ben10{
+    color: midnightblue;
+    border: 2px solid hotpink; 
+    padding: 40px;
+    margin: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(107, 84, 96, 0.411);
+}
+/* list styling */
+div li{
+    display: inline-block;
+    border: 2px solid hotpink;
+    padding: 5px;
+    margin: 35px;
+    border-radius: 7px;
+}
+/* table styling */
+.tab table{
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px;
+}
+.tab th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+.tab td{
+    padding: 10px;
+    border: 2px double;
+}
+.tab .amt{
+    text-align: right;
+}
+.tab tr:nth-child(even){
+    background-color: rgb(183, 153, 178);
+}
+
+/* position in css */
+/* relative */
+.blue{
+    background-color: rgb(107, 162, 197);
+    height: 250px;
+    width: 250px;
+}
+.yellow{
+    background-color: rgb(203, 216, 27);
+    height: 125px;
+    width: 125px;
+    position: relative;
+    /* offsets */
+    left: 60px;
+    bottom: 190px;
+}
+#p1{
+    position: relative;
+    bottom: 120px;
+}
+/* absolute */
+.pink{
+    background-color: palevioletred;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+.voilet{
+    background-color: violet;
+    height: 125px;
+    width: 125px;
+    /* absolute will be relative to the non-static measurements (or) root */
+    position: absolute;
+    top: 65px;
+    left: 63px;
+}
+/* float in css */
+/* ----------------------------------------------------- */
+/* .col p{
+    background-color: aqua;
+    width: 30%;
+    float: left;
+    padding: 10px;
+    border: 2px double brown;
+    margin: 7px;
+}
+.col #a{
+    background-color: lightsalmon;
+}
+.col #b{
+    background-color: whitesmoke;
+}
+.col #c{
+    background-color: lightgreen;
+} */
+/* ---------------------------------------------------- */
+
+/* flex in css */
+.col{
+    display: flex;
+}
+.col #a{
+    background-color: lightsalmon;
+    flex: 1;
+    order: 3;
+}
+.col #b{
+    background-color: whitesmoke;
+    flex: 2;
+    order: 1;
+}
+.col #c{
+    background-color: lightgreen;
+    flex: 1;
+    order: 2;
+}

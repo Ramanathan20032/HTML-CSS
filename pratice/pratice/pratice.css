@@ -1,0 +1,31 @@
+.h1{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+.p{
+    background-color: rgb(205, 202, 202);
+    padding: 15px;
+    border: 15px solid rgb(124, 147, 86);
+    margin: 25px;
+}
+/* ---------------------------------------------------- */
+ul{
+    border: 2px solid yellow;
+    padding: 20px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+}
+/* ---------------------------------------------------- */
+nav{
+    background-color: black;
+    color: white;
+}

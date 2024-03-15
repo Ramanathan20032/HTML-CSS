@@ -1,0 +1,610 @@
+<!--
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>My first page</title>
+        </head>
+        <body>
+            <h1>Heading Tag 1</h1>
+            <p>hi. This is a paragraph !</p>
+        </body>
+    </html>
+-->
+
+<!-- ! - Emmet Abbrevation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexStyle.css" type="text/CSS">
+    <title>HTML BASICS</title>
+</head>
+  <!--style="property: value;"-->
+<body style="background-color :lightgray">
+    <!-- Heading tag -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <h1>Heading Tag 1</h1>
+    <h2>Heading Tag 2</h2>
+    <h3>Heading Tag 3</h3>
+    <h4>Heading Tag 4</h4>
+    <h5>Heading Tag 5</H5>
+    <h6>Heading Tag 6</h6>
+    <hr>
+    <hr>
+
+    <!-- Paragraph -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <p id="para1">
+        this paragraph
+        contains a lot of lines 
+        in the source code,<br>
+        but the browser
+        ignores it.
+    </p>
+    <!-- paragraph always starts with the new line -->
+    <p id="para2">
+        This paragraph
+        contains         a lot of spaces
+        in the source         code,
+        but the        browser
+        ignores it.
+    </p>
+
+    <!-- line breaks -->
+    <br>
+
+    <!-- Pre-tag reserves the both spaces and lineBreak-->
+    <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+      
+    My Bonnie lies over the ocean.
+      
+    Oh, bring back my Bonnie to me.
+    </pre>
+
+    <!-- Horizon line - Empty tag -->
+    <hr> 
+    <hr>
+
+    <!-- Styles - color,font,size -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <!--style="property: value;"-->
+
+    <h3>Styles in HTML</h3>
+    <h6 style="background-color: powderblue;">style</h6>
+    <p style="background-color: tomato;">This is a paragraph</p>
+
+    <!-- text color -->
+    <h2 style="color:blue;">This is a heading</h2>
+    <!-- font family -->
+    <h2 style="font-family:verdana;">This is a heading</h2>
+    <!-- font size -->
+    <h2 style="font-size: 150%;">This is a heading</h2>
+    <!-- Text Alignment -->
+    <h2 style="text-align: center;">This is a heading</h2>
+    <hr>
+    <hr>
+
+    <!-- text formatting -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>Text Formatting</h3>
+    <!-- Bold -->
+    <b>This text is Bold</b>
+    <br>
+    <!-- Strong -->
+    <strong>This text is important</strong> <!--more important-->
+    <p>
+
+    <!-- italic -->
+    <i>This text is italic</i>              
+    <br>
+    <em>This text is emphasized</em>        <!--more emphasized-->
+    <p>
+
+    <!-- small -->
+    <small>This is some smaller text.</small>
+
+    <!-- mark - highlighter -->
+    <p>Do not forgot to buy <mark>milk</mark>.</p>
+
+    <!-- Delete - strike line -->
+    <p>My favorite color is <del>blue</del> red.</p>
+
+    <!-- underline -->
+    <u>hi</u>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+    <!-- subScript -->
+    <p>h<sub>2</sub>0</p>
+    <p>This is <sub>subScript</sub> text.</p>
+
+    <!-- superScript -->
+    <p>a<sup>2</sup>b<sup>2</sup></p>
+    <p>This is <sup>superScript</sup> text.</p>
+    <hr>
+    <hr>
+
+    <!-- Quatation -->
+    <!-- ----------------------------------------------------------------------------- -->
+    
+    <h3>Quatation</h3>
+    <!-- q - for quatation purpose -->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <!-- abbr - Abbrevation -->
+    <p>The <abbr title="World Health Organisation">WHO</abbr> was found in 1948.</p>
+
+    <!-- addr - address -->
+    <!--<br>-->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <!--</br>-->
+
+    <!-- cite - title of the work-->
+    <p> <cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+    <!-- bdo - bi-directional override -->
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <br>
+    <bdo dir="ltr">This text will be written from left to right</bdo>
+    <hr>
+    <hr>
+
+    <!-- colors : HTML supports 140 standard class -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>colors in HTML</h3>
+    <!--Background color-->
+    <h4 style="background-color: rgb(202, 234, 22);">hello world</h4>
+    <p style="background-color: dodgerblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil veritatis accusamus voluptatum.</p>
+    <br>
+
+    <!--Text color-->
+    <h4 style="color: tomato;">Text Color</h4>
+    <p style="color: yellowgreen;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus culpa eligendi tempore nihil inventore.</p>
+    <p style="color: burlywood;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut eum cum beatae quibusdam neque aliquam, cumque quod.</p>
+
+    <!--Border color-->
+    <h3 style="border: 2px solid tomato;">hello world</h3>
+    <h3 style="border: 2px solid orange;">hello world</h3>
+    <h3 style="border: 2px solid aqua;">hello world</h3>
+    <hr>
+    <hr>
+
+    <!-- HTMl - links -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>Links Anchor tag - Hyperlink</h3>
+    <!-- Anchor tag - hyper link -->
+    <p>
+    <a class="anchor" href="https://www.w3schools.com/">Visit w3Schools.com</a>
+    <p>
+    <!-- opens in a new page</p> [target] -->
+    <a class="anchor" href="https://www.w3schools.com/" target="_blank">Visit w3Schools.com</a>
+    <p>
+    <!-- email link [mailto]-->
+    <a class="anchor" href="mailto:someone@gmail.com">send mail</a>
+    <p>
+    <a class="anchor" href="">go to next page</a>
+
+    <p>
+    <!-- button as link -->
+    <button onclick = "document.location='https://www.w3schools.com/' ";>HTML TUTORIAL</button>
+
+    <p>
+   <!-- toolip - title --> 
+    <a href="https://www.w3schools.com/" title="Home page">back to home</a>
+
+    <!-- Bookmark - links -->
+    <p>
+    <a href="#C2">jump tp page 2</a>
+    <br>
+    <a href="#C4">jump to page 4</a>
+
+    <h2>Chapter 1</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C2">Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C4">Chapter 4</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 5</h2>
+    <p>This chapter explains ba bla bla</p>
+    <hr>
+    <hr>
+
+    <!-- HTML Images -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>Images in HTML</h3>
+    <!-- cannot change by the style sheet -->
+    <img src="images/burger.png" alt="burger" style="width: 128; height: 128;">
+    <!-- can change by the style sheet -->
+    <img src="images/food2.png" alt="bun" width="128" height="128">
+    <p>
+    <br>
+
+    <!-- Image as a link -->
+    <a href="https://www.w3schools.com/">
+        <img src="images/s2.png" alt="link" height="105" width="105">
+    </a>
+    <hr>
+    <hr>
+
+    <!-- HTML Tables -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>Tables in HTML</h3>
+    <table border="1px" cellpadding="3px" cellspacing="3px">
+        <thead>
+            <tr>
+                <th style="text-align: center;">Sno</th>
+                <th style="text-align: center;">name</th>
+                <th style="text-align: center;">email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;">abc</td>
+                <td style="text-align: center;">abc@gmailcom</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">xyz</td>
+                <td style="text-align: center;">xyz@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+    <table border="1px" cellpadding="2px" cellspacing="2px">
+        <caption id="caption">Time Table</caption>
+        <tr>
+            <th>Day</th>
+            <th colspan="3">subject</th>
+        </tr>
+        <tr>
+            <th class="heading">Monday</th>
+            <td>TAM</td>
+            <td>ENG</td>
+            <td>SCI</td>
+        
+        </tr>
+        <tr>
+            <th class="heading">Tuesday</th>
+            <td>PET</td>
+            <td>TAM</td>
+            <td>MAT</td>
+        </tr>
+        <tr>
+            <th class="heading">Wednesday</th>
+            <td>ENG</td>
+            <td>SOC</td>
+            <td>MAT</td>
+        </tr>
+        <tr>
+            <th class="heading">Thursday</th>
+            <td>SCI</td>
+            <td>ENG</td>
+            <td>SOC</td>
+        </tr>
+        <tr>
+            <th class="heading">Friday</th>
+            <td>SCI</td>
+            <td>PET</td>
+            <td>MAT</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+
+    <!-- HTML lists -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3 id="head">unordered list</h3>
+    <!-- unordered list -->
+    <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <ul style="list-style-type: disc;">
+            <li id="head">black tea</li>
+            <li id="head">green tea</li>
+        </ul>
+        <li>milk</li>
+    </ul>
+
+    <h3 id="head">ordered list</h3>
+    <!-- ordered list -->
+    <ol>
+        <li>coffee</li>
+        <li>tea</li>
+        <ol start="50">
+            <li id="head">black tea</li>
+            <li id="head">green tea</li>
+        </ol>
+        <li>milk</li>
+    </ol>
+
+    <h3 id="head">Description list</h3>
+    <!-- Description list -->
+    <dl>
+        <dt>coffee : </dt>
+        <dd id="head">- black hot drink</dd>
+        <dt>milk : </dt>
+        <dd id="head">- white cold drink</dd>
+    </dl>
+    <hr>
+    <hr>
+
+    <!-- block - inline elements -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <!-- block -->
+    <!-- <p>,<div> -->
+    <!-- block level element always takes up the full width available -->
+    <!-- Add some space between before and after the element -->
+    <h3>block level elements</h3>
+    <p style="border: 1px solid cadetblue;">hello world</p>
+    <div style="border: 1px solid cadetblue">hello world</div>
+
+    <!-- inline -->
+    <!-- <span> -->
+    <!-- inline element only takes up as much width as necessary -->
+    <p>
+    <h3>inline elements</h3>
+    <span style="border: 1px solid cadetblue">hello world</span>
+
+    <h3>div element</h3>
+      <div class="bg">
+        <h2>London</h2>
+        <p class="shadow">London is the capital city of England.</p>
+        <p class="shadow">London has over 13 million inhabitants.</p>
+      </div>
+      
+      <div class="bg">
+        <h2>Oslo</h2>
+        <p class="shadow">Oslo is the capital city of Norway.</p>
+        <p class="shadow">Oslo has over 600.000 inhabitants.</p>
+      </div>
+      
+      <div class="bg">
+        <h2>Rome</h2>
+        <p class="shadow">Rome is the capital city of Italy.</p>
+        <p class="shadow">Rome has almost 3 million inhabitants.</p>
+      </div>
+      <hr>
+      <hr>
+
+    <!-- iframe -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <h3>iframe</h3>
+    <iframe src="https://www.youtube.com" title="w3Schools" height="300" width="600" style="border: 2px double violet;"></iframe>
+    <hr>
+    <hr>
+
+    <!-- Forms in html -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h3>Html forms</h3>
+
+      <!-- for - <label> $ id - <input> must be same -->
+
+    <h4>Text Field : </h4>
+    <form>
+        <label for="fname">First Name</label><br>
+        <input type="text" name="firstName" id="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lastName" id="lname"><br>
+    </form>
+
+    <!-- only one option can be selected -->
+    <h4>Radio Field : </h4>
+    <form>
+        <input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="fav_lang" value="JS">
+        <label for="js">JAVASCRIPT</label>
+    </form>
+
+    <!-- zero or more option can be selected -->
+    <h4>Checkbox : </h4>
+    <form action="">
+        <input type="checkbox" name="vehicle" id="bike" value="BIKE">
+        <label for="bike">I have a bike</label><br>
+        <input type="checkbox" name="vehicle" id="cycle" value="CYCLE">
+        <label for="cycle">I have a cycle</label><br>
+        <input type="checkbox" name="vehicle" id="car" value="CAR">
+        <label for="car">I have a car</label>
+    </form>
+
+    <h4>submit : </h4>
+    <form action="images/food2.png">
+        <label for="fname1">First Name</label><br>
+        <input type="text" name="firstName" id="fname1" placeholder="john"><br>
+        <label for="lname1">Last Name</label><br>
+        <input type="text" name="lastName" id="lname1" placeholder="Doe"><br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+
+    <h4>Drop Down : </h4>
+    <label for="cars">choose a car</label><br>
+    <select name="cars" id="cars">
+        <option value="volvo">volvo</option>
+        <option value="tata">tata</option>
+        <option value="audi">audi</option>
+        <option value="shift">shift</option>
+    </select>
+
+    <h4>button : </h4>
+    <input type="button" onclick="alert('hello world')" value="on click">
+    <hr>
+    <hr>
+
+    <!-- videos in html -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <video width="300" height="250" controls>
+        <source src="images/42.mkv">
+    </video>
+    <hr>
+    <hr>
+
+    <!-- youtube link -->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <iframe height="300" width="250"
+         src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+    </iframe>
+    <hr>
+    <hr>
+    <!-- ----------------------------------------------------------------------------- -->
+    <center>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="username">Username : </label></td>
+                    <td><input type="text" name="Username" id="username" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">PassWord : </label></td>
+                    <td><input type="password" name="passWord" id="pwd" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age : </label></td>
+                    <td><input type="number" name="Age" id="age" placeholder="Enter your age"></td>
+                </tr>
+                <tr>
+                    <td><label for="dep">Department : </label></td>
+                    <td>  
+                        <select name="Department" id="dep">
+                            <option value="CSE">CSE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="IT">IT</option>
+                        </select>
+                    </td>
+                
+                </tr>
+                <tr style="text-align: center;">
+                    <td><input type="submit" name="" id=""></td>                </tr>
+                </tr>
+            </table>
+        </form>
+    </center>
+    <hr>
+    <hr>
+
+<!-- border property -->
+<h3> border - box</h3>
+    <div>
+        <p class="ben10">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore nam iusto asperiores sunt quam aspernatur quidem amet blanditiis similique provident.
+        </p>
+    </div>
+    <hr>
+    <hr>
+
+<!-- navigation technique -->
+<h3>list styling</h3>
+<div>
+    <ul class="nav">
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+        <li>contact</li>
+    </ul>
+</div>
+<hr>
+<hr>
+<!-- table styling -->
+<h3>table styling</h3>
+<div class="tab">
+    <table>
+        <tr>
+            <th>item</th>
+            <th class="amt">price</th>
+        </tr>
+        <tr>
+            <td>vegroll</td>
+            <td class="amt">Rs.28</td>
+        </tr>
+        <tr>
+            <td>samosa</td>
+            <td class="amt">Rs.35</td>
+        </tr>
+        <tr>
+            <td>vada</td>
+            <td class="amt">Rs.25</td>
+        </tr>
+        <tr>
+            <td>dosa</td>
+            <td class="amt">Rs.40</td>
+        </tr>
+        <tr>
+            <td>poori</td>
+            <td class="amt">Rs.45</td>
+        </tr>
+    </table>
+</div>
+<hr>
+<hr>
+
+<!-- position in css -->
+<h3>position in CSS</h3>
+    <h2>relative</h2>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+    <div id="p1">
+        <h3>paragraph</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, suscipit ab ex doloribus delectus velit minus. Repellat quia nesciunt quod tempore reprehenderit? Corrupti, mollitia! Debitis praesentium sunt maiores id quasi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quos ratione! Ex, dolore. Hic voluptate qui saepe repellendus quibusdam tempora molestiae error dolore repellat, tempore sed quas aliquam distinctio deleniti ipsum quae dignissimos quisquam exercitationem. Obcaecati aut voluptatem unde quibusdam? Sapiente sunt ullam excepturi nostrum consequuntur repellat consequatur error ipsam adipisci harum earum expedita dicta illum nisi fugit eaque dolorem tempora dolore odit eos voluptas, at quisquam. Culpa soluta quae odio nobis eveniet nihil, tenetur autem, quis voluptatum possimus est atque doloremque, unde fuga distinctio aut dolorum temporibus recusandae deserunt. Magni atque nihil vel explicabo dolores minus magnam quos est!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus suscipit officiis cupiditate, dolor culpa recusandae. Rerum minima possimus dolor est veniam beatae, esse totam animi inventore, numquam quibusdam illum porro qui excepturi iure aperiam minus cumque culpa in voluptatum expedita quae tenetur. Sed consequuntur sapiente quia magni numquam consectetur ipsam animi voluptatem enim commodi quas, eos a iste ex eveniet veritatis nemo autem beatae. Explicabo non reprehenderit et porro neque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo culpa veritatis, nobis dolor labore quis sed, sequi eveniet nam quo voluptas, cupiditate repellendus alias fugit nihil corrupti commodi eaque magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, error quos eaque aliquam ducimus magni maxime totam at odio. Nostrum autem doloribus exercitationem ea. Officiis hic obcaecati accusantium officia modi velit, molestias impedit, nam, ipsum in facilis excepturi iure minus voluptas nulla similique distinctio nisi. Dolore porro obcaecati perspiciatis velit?</p>
+    </div>
+    <h2>absolute</h2>
+    <div class="pink">
+        <div class="voilet"></div>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil ducimus omnis, dicta possimus officiis maxime tempora nulla maiores dignissimos excepturi, earum aliquid nisi in enim totam iusto voluptas fugiat pariatur! Reprehenderit magni accusamus qui inventore voluptas nam, rerum repellendus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, qui alias sunt vero odit sint provident quis rerum facilis ut totam suscipit, optio cum voluptatum! Necessitatibus sequi a doloremque autem cum laborum eum saepe. Deserunt porro laborum reprehenderit dicta sequi cumque enim saepe, autem eveniet dolorem quam debitis unde aperiam delectus dolores obcaecati dolor alias itaque eligendi architecto suscipit sit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque veniam perferendis dolorum eum nihil nobis veritatis dolore earum modi ullam, quaerat mollitia doloremque voluptatum fugit accusamus consequuntur animi dolorem. Id?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, esse! Nisi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facilis praesentium rerum nobis libero harum deleniti cumque quae nisi provident ipsum, facere ducimus itaque illum, asperiores architecto quidem. Excepturi, commodi!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi eaque a eos possimus magnam, natus, asperiores quibusdam tempora, quas incidunt in pariatur facere quam officia minus ducimus officiis. Suscipit ipsum veniam enim quos similique necessitatibus architecto, nulla, excepturi porro rerum aspernatur at illum ratione error. Error officiis minus repellat molestiae maiores, non ab ratione id delectus ex alias enim itaque excepturi et blanditiis repudiandae voluptate ut quae eaque possimus! Ea laborum dolores ab neque quaerat praesentium. Tempore, sit officiis? Cupiditate ipsa quod at rem nihil consequuntur placeat consectetur veritatis qui. Impedit a ex earum ducimus nemo atque? Facere, ipsa quidem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores excepturi quisquam illo, perspiciatis iure natus maiores minima, rerum doloremque id eos soluta sequi ad ipsam nemo rem iste officiis aliquid vitae sint facilis quam. Sit magni deleniti asperiores. Quia deserunt officia assumenda numquam non unde laborum, soluta minima iusto, consectetur eaque at magni nemo accusamus ab. Quia mollitia animi eum fuga rerum ipsum facilis, sapiente excepturi dignissimos reiciendis asperiores deleniti, nemo temporibus at alias itaque amet odit harum aspernatur doloribus!</p>
+    </div>
+    <hr>
+    <hr>
+    <!-- float in css -->
+    <h3>float</h3>
+    <div class="col">
+        <p id="a">1 one  necessitatibus ut nobis culpa perferendis officiis optio, aut esse expedita labore architecto commodi, dolore fugiat odio inventore iste ratione? Facilis atque sequi corrupti in delectus debitis nobis soluta dolor quos expedita temporibus optio, eum unde quo ullam deleniti reiciendis natus? Quam ipsa, facere impedit voluptates aperiam dolor harum voluptas molestias architecto, nam aliquam atque nihil soluta ut, esse praesentium numquam alias sequi delectus dolorem recusandae earum. Recusandae distinctio, inventore dolores eaque dicta totam harum sconsequuntur obcaecati?</p>
+        <p id="b">2 two sectetur adipisicing elit. Eius dolor amet maxime dolores et molestias distinctio dolore, modi mollitia aspernatur optio quibusdam expedita accusamus incidunt temporibus repudiandae quas velit! Vitae alias aut quibusdam cum explicabo minus, voluptas iure, laudantium, blanditiis saepe harum! Consequatur amet velit deleniti placeat eius impedit culpa autem, provident mollitia ipsum, fugiat maxime nam? Tempora, sunt accusamus cupiditate, quam aspernatur maxime reiciendis ducimus voluptate, architecto explicabo ipsum modi rem pariatur a. Veniam ullam inventore expedita ad numquam quo, sapiente necessitatibus, voluptatem modi dolorum qui a dignissimos aperiam animi fugiat! Fugiatone?</p>
+        <p id="c">3 three Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam facere debitis esse? Sed architecto, id aliquid labore eaque quos repellat accusamus enim aut illo tempora non neque voluptatem assumenda. Laboriosam ratione illum aperiam perferendis dolorum nemo corrupti, ea et, dignissimos, voluptates sunt? Quas, libero enim in corporis voluptates quaerat provident vel voluptatem. Distinctio numquam error asperiores? Amet beatae eaque ullam id suscipit quia iusto culpa cumque, blanditiis sunt, atque quod recusandae veritatis provident fugit doloribus nulla numquam aperiam sequi laboriosam expedita excepturi? Quia perspiciatis consequuntur praesentium repudiandae sit autem corporis assumenda reiciendis animi atque, aperiam cumque idrum.</p>
+    </div>
+    <hr>
+    <hr>
+
+</body>
+</html>
