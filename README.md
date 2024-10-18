@@ -1,5 +1,4 @@
 # Font Awesome Cdn Link
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -7,3 +6,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+
+# Smooth-scroll
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
