@@ -1,0 +1,47 @@
+/* Glass Box-Shadow Examples */
+
+
+* {
+
+  background: rgba(255, 255, 255, 0.2);
+
+  /* Soft Frosted Glass Effect */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2),
+    0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Blurry Glass Shadow */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2),
+    inset 0 4px 6px rgba(255, 255, 255, 0.2);
+
+  /* Subtle Glass Glow */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.15),
+    0 6px 20px rgba(0, 0, 0, 0.19);
+
+  /* Deep Frosted Shadow */
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.25),
+    0 4px 20px rgba(0, 0, 0, 0.3);
+
+  /* Sharp Crystal Effect */
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.15);
+
+  /* Light Transparent Glass */
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.2),
+    0 3px 6px rgba(0, 0, 0, 0.15);
+
+  /* Elegant Glass Pane */
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.2),
+    0 8px 16px rgba(0, 0, 0, 0.2);
+
+  /* Glowing Glass Frame */
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.25),
+    0 4px 10px rgba(0, 0, 0, 0.25);
+
+  /* Frosty Depth */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3),
+    0 10px 15px rgba(0, 0, 0, 0.25);
+
+  /* Bright Frost Shadow */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.25),
+    0 15px 30px rgba(0, 0, 0, 0.2);
+}
